@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<title>taunt</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<style>
+@font-face {font-family: 'Permanent Marker';font-style: normal;font-weight: 400;src:local('Permanent Marker Regular'),local('PermanentMarker-Regular'),
+url('fonts/permanent-marker-v7-latin-regular.woff2')format('woff2'),url('fonts/permanent-marker-v7-latin-regular.woff')format('woff');}
+body{background-color: #ff6200;}
+#container{display: flex;flex-direction:row;flex-wrap: wrap;}
+button{background-color: #4a4946;border:0.128rem solid #1f312d;color:#d9daea;width:10rem;margin:0.5rem auto 0.5rem auto;font-family:'Permanent Marker';
+font-size:2rem;border-radius:1rem;padding:1rem 0 1rem 0;}
+button:active{color: #ff6200; border-color: #d9daea; background-color: #4a4946;}
+</style>
+</head>
+<body>
+<div id="container">
+<button onclick="new Audio('sound/ahhh.mp3').play()">Ahhh</button>
+<button onclick="new Audio('sound/bingo2.mp3').play()">Bingo 2</button>
+<button onclick="new Audio('sound/bingo3.mp3').play()">Bingo 3</button>
+<button onclick="new Audio('sound/boring.mp3').play()">Boring</button>
+<button onclick="new Audio('sound/fantastic.mp3').play()">Fantastic</button>
+<button onclick="new Audio('sound/great.mp3').play()">Great</button>
+<button onclick="new Audio('sound/hmmm.mp3').play()">Hmmm</button>
+<button onclick="new Audio('sound/hui.mp3').play()">Hui</button>
+<button onclick="new Audio('sound/links.mp3').play()">Links</button>
+<button onclick="new Audio('sound/noise.mp3').play()">*noise*</button>
+<button onclick="new Audio('sound/ohhhh.mp3').play()">Ohhh</button>
+<button onclick="new Audio('sound/poof.mp3').play()">Poof</button>
+<button onclick="new Audio('sound/rekt.mp3').play()">Rekt</button>
+<button onclick="new Audio('sound/sad.mp3').play()">Sad</button>
+</div>
+</body>
+</html>
